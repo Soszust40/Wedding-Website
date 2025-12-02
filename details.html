@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details | Ariel & Simon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/rings.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">A & S</a>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="details.html" class="active">Details</a></li>
+                <li><a href="registry.html">Registry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container section">
+            <h2 class="text-center">Wedding Details</h2>
+            
+            <div class="details-card">
+                <h3>The Ceremony</h3>
+                <p><strong>Time:</strong> 4:00 PM</p>
+                <p><strong>Location:</strong> The Grand Traverse Resort</p>
+                <p>Please arrive by 3:45 PM. The ceremony will be held outdoors on the lawn, weather permitting.</p>
+            </div>
+
+            <div class="details-card">
+                <h3>The Reception</h3>
+                <p><strong>Time:</strong> 6:00 PM - 11:00 PM</p>
+                <p><strong>Location:</strong> The Peninsula Ballroom</p>
+                <p>Dinner, drinks, and dancing to follow immediately after cocktail hour.</p>
+            </div>
+
+            <div class="details-card">
+                <h3>Accommodations</h3>
+                <p>We have reserved a block of rooms at the Grand Traverse Resort. Mention the "Smith-Johnson Wedding" for a discounted rate.</p>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2 class="text-center">Frequently Asked Questions</h2>
+                
+                <details>
+                    <summary>What is the dress code?</summary>
+                    <div class="faq-answer">
+                        <p>The dress code is professional. We suggest suits for men and dresses for women. Please note the ceremony is outdoors on grass.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Are children allowed?</summary>
+                    <div class="faq-answer">
+                        <p>We love your little ones, but our wedding will be an adults-only celebration. We hope you understand and can enjoy a night off!</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Is there parking available?</summary>
+                    <div class="faq-answer">
+                        <p>Yes, the resort offers complimentary valet and self-parking for all wedding guests.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>What if I have dietary restrictions?</summary>
+                    <div class="faq-answer">
+                        <p>Please indicate any dietary restrictions (Vegetarian, Gluten-Free, Allergies) on your RSVP card or contact us directly.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Ariel & Simon Wedding</p>
+    </footer>
+
+    <!-- Script for Mobile Menu -->
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

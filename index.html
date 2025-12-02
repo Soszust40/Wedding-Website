@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding | Ariel & Simon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/rings.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">A & S</a>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="registry.html">Registry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Ariel & Simon</h1>
+            <p>We're getting married!</p>
+            <p>May 14th, 2026 • Plymouth, MI</p>
+            <a href="details.html" class="btn">RSVP Now</a>
+        </section>
+
+        <section class="container section text-center">
+            <h2>Save the Date</h2>
+            <p>We are so excited to celebrate our special day with you. Please browse our website for details on accommodations, registry, and our love story.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Ariel & Simon Wedding</p>
+    </footer>
+
+    <!-- Script for Mobile Menu -->
+    <script>
+        function toggleMenu() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
