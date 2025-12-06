@@ -158,7 +158,7 @@ nav {
     height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: var(--text-light);
     text-align: center;
