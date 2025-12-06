@@ -483,7 +483,12 @@ footer {
     margin-top: auto;
 }
 
-/* Custom Scrollbar Styling */
+/* Custom Scrollbar */
+html {
+    scrollbar-color: var(--secondary-color) #fafafa; 
+    scrollbar-width: thin;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
 }
