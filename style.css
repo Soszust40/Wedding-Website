@@ -259,6 +259,17 @@ nav {
     margin-bottom: 2rem;
 }
 
+.detail-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 2rem;
+}
+
 /* FAQ Dropdowns */
 .faq-section {
     max-width: 800px;
