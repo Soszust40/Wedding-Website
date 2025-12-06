@@ -483,6 +483,25 @@ footer {
     margin-top: auto;
 }
 
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fafafa;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 6px;
+    border: 3px solid #fafafa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color);
+}
+
 /* Smaller Devices */
 @media (max-width: 768px) {
     .nav-links {
